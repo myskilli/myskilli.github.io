@@ -177,7 +177,8 @@ select[readonly] {
 }
 
 .relativecontainer {
-  position: relative;
+  position: absolute;
+  
 }
 
 .sliderheight {
@@ -747,7 +748,7 @@ button.agrowatchnowbtn:hover {
 }
 
 .xaxisspacingagroleft {
-  margin-left: 120px;
+  margin-left: 0px;
 }
 
 .graycontainer {
@@ -1360,9 +1361,6 @@ li.activepagesidebar a {
   border-top: 1px solid #bdbdbd;
 }
 
-.agrohubborderright {
-  border-right: 1px solid #bdbdbd;
-}
 
 .agroborderrad1 {
   border-top-left-radius: 20px;
@@ -1499,7 +1497,8 @@ button.saveyourslot:hover {
 }
 
 .relativecontainer {
-  position: relative;
+  position: absolute;
+  margin-bottom: 5%;
 }
 
 .wsmall {
@@ -3208,4 +3207,79 @@ ul.signupsignintabs li a.active {
   }
 }
 
+/* Faq Section */
+
+.faq-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 12px;
+  padding: 10px 0;
+  border-bottom: 1px dotted #706969;
+  margin-left: 10px;
+}
+
+.faq-box .title {
+  font-weight: 600;
+  font-size: 12px;
+  
+}
+.main-accordion{
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  border: none;
+  font-size: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  
+  outline: none;
+  transition: 0.4s;
+}
+.accordion {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border: none;
+  padding: 0.5rem 0;
+  background-color: #fff;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 12px;
+  transition: 0.4s;
+}
+
+.answer {
+  font-weight: 300;
+  padding-left: .5rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  background-color: white;
+}
+
+
+.faq {
+  background-color: #fff;
+  padding: 0.1rem 1.5rem 00.1rem 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: auto;
+  min-height: 100px;
+}
+
+.faq h4 {
+  color: #167c1a;
+}
+
+.faq-box .fas {
+  color: #000;
+}
 /*# sourceMappingURL=style.css.map */
