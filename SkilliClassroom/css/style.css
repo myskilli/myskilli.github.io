@@ -3209,77 +3209,61 @@ ul.signupsignintabs li a.active {
 
 /* Faq Section */
 
-.faq-box {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  font-size: 12px;
-  padding: 10px 0;
-  border-bottom: 1px dotted #706969;
-  margin-left: 10px;
-}
-
-.faq-box .title {
-  font-weight: 600;
-  font-size: 12px;
-  
-}
-.main-accordion{
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  border: none;
-  font-size: 15px;
-  background-color: #fff;
-  cursor: pointer;
-  width: 100%;
-  
-  outline: none;
-  transition: 0.4s;
-}
-.accordion {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  border: none;
-  padding: 0.5rem 0;
-  background-color: #fff;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  outline: none;
-  font-size: 12px;
-  transition: 0.4s;
-}
-
-.answer {
+details {
+  font-family: Roboto Light;
+  font-style: normal;
   font-weight: 300;
-  padding-left: .5rem;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-in-out;
-  background-color: white;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  border-bottom: 1px dotted #706969;
+  padding: .5em .5em 0;
+  cursor: pointer;
+}
+
+summary {
+  font-family: Roboto Medium;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 14px;
+letter-spacing: -0.03em;
+
+color: #838383;
+
+
+  margin: -.5em -.5em 0;
+  padding: .5em;
+}
+
+details[open] {
+  padding: .5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
 }
 
 
-.faq {
-  background-color: #fff;
-  padding: 0.1rem 1.5rem 00.1rem 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  border-radius: 3px;
+/* morehelp Section */
+.morehelp {
+  margin-top: 5%;
+}
+
+.flex-container {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  height: auto;
-  min-height: 100px;
 }
 
-.faq h4 {
-  color: #167c1a;
-}
+.flex-child {
+  flex: 1;
+  border: 2px solid rgb(204, 204, 203);
+  background: white;
+  border-radius: 20px;s
+}  
 
-.faq-box .fas {
-  color: #000;
-}
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+
 /*# sourceMappingURL=style.css.map */
