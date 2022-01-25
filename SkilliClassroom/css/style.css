@@ -178,7 +178,7 @@ select[readonly] {
 
 .relativecontainer {
   position: absolute;
-  
+  margin-left: 23%;
 }
 
 .sliderheight {
