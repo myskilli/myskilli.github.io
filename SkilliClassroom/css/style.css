@@ -58,6 +58,11 @@ body {
   color: #797474;
 }
 
+.agrohubblacktext {
+  color: #000000;
+
+}
+
 .agrohubgraytext2 {
   color: #565656;
 }
@@ -554,6 +559,10 @@ a.medparagraph.selectedsidebarmenu:hover {
   color: #797474 !important;
 }
 
+.blackcolor {
+  color: #000000 !important;
+}
+
 .mainbg {
   background-color: #225779;
 }
@@ -650,6 +659,23 @@ button.agrobtn {
   color: #000;
   border-radius: 20px;
 }
+
+
+
+button.watchbtn {
+  background-color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  border: 1px solid #000;
+  text-align: left;
+  color: #000;
+  border-radius: 20px;
+}
+
 button.agrobtn:hover {
   background-color: #fff;
   border: 1px solid #f8b501;
@@ -761,6 +787,12 @@ button.agrowatchnowbtn:hover {
 }
 
 .grayborder {
+  border: 1px solid #706969;
+  border-radius: 20px;
+}
+
+.grayborderyellow {
+  background: #f8b501;
   border: 1px solid #706969;
   border-radius: 20px;
 }
@@ -929,6 +961,7 @@ button.agrowatchnowbtn:hover {
   text-align: left;
 }
 
+
 .agroparagraph1 {
   font-family: Montserrat;
   font-size: 16px;
@@ -975,6 +1008,8 @@ button.agrowatchnowbtn:hover {
   letter-spacing: 0em;
   text-align: left;
 }
+
+
 
 .retentionheader {
   font-family: Roboto;
@@ -1418,6 +1453,7 @@ button.saveyourslot:hover {
 .borderaround {
   border: 1px solid #c4c4c4;
   border-radius: 20px;
+  margin: auto;
 }
 .borderaround.radius0 {
   border-radius: 0;
@@ -3209,6 +3245,9 @@ ul.signupsignintabs li a.active {
 
 /* Faq Section */
 
+.faq {
+  margin-top: 4%;
+}
 details {
   font-family: Roboto Light;
   font-style: normal;
@@ -3249,6 +3288,7 @@ details[open] summary {
 /* morehelp Section */
 .morehelp {
   margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .flex-container {
