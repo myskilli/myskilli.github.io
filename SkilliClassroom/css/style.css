@@ -186,6 +186,10 @@ select[readonly] {
   margin-left: 23%;
 }
 
+.lowerbox {
+  width: 750px;
+}
+
 .sliderheight {
   height: 350px auto;
 }
@@ -649,17 +653,33 @@ button.graybtn:hover {
 
 button.agrobtn {
   background-color: #f8b501;
-  font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
-  color: #000;
+  color: rgb(255, 255, 255);
   border-radius: 20px;
 }
 
+
+
+button.agrobtnblacktext {
+  background-color: #f8b501;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.mb-3 {
+  margin-top: 5%;
+}
 
 
 button.watchbtn {
@@ -761,6 +781,9 @@ button.agrowatchnowbtn:hover {
   border-radius: 50%;
 }
 
+.img-fluid img {
+  align-items: center;
+}
 .xaxisspacing,
 .xaxisspacing2,
 .xaxisspacing3 {
@@ -775,10 +798,12 @@ button.agrowatchnowbtn:hover {
 
 .xaxisspacingagroleft {
   margin-left: 0px;
+  align-items: center;
+  width: 70%;
 }
 
 .graycontainer {
-  width: min-content;
+  width: 750px;
 }
 
 .graycontainerinnercol {
@@ -791,11 +816,22 @@ button.agrowatchnowbtn:hover {
   border-radius: 20px;
 }
 
+.grayborder1 {
+  border: 1px solid #706969;
+  border-radius: 10px;
+  background: #555454;
+  height:max-content;
+}
+
 .grayborderyellow {
   background: #f8b501;
   border: 1px solid #706969;
   border-radius: 20px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
 }
+
 
 .lessonprogress .progressbarpositioning {
   position: relative;
@@ -942,8 +978,8 @@ button.agrowatchnowbtn:hover {
 }
 
 .agroheader1 {
-  font-family: Montserrat;
-  font-size: 36px;
+  font-family: Roboto;
+  font-size: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 46px;
@@ -991,6 +1027,20 @@ button.agrowatchnowbtn:hover {
   letter-spacing: 0em;
 }
 
+.agroparagraph4 {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.textinbox {
+  margin-top: 0.3%;
+}
+
 .agroitalic {
   font-style: italic !important;
 }
@@ -1000,10 +1050,9 @@ button.agrowatchnowbtn:hover {
 }
 
 .agromerriheader {
-  font-family: Merriweather;
-  font-size: 14px;
+  font-size: 17px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left;
@@ -1392,6 +1441,11 @@ li.activepagesidebar a {
   border-bottom: 1px solid #bdbdbd;
 }
 
+.expertborderbottom {
+  border-bottom: 1px solid #FFC000;
+  width: fit-content;
+}
+
 .agrohubbordertop {
   border-top: 1px solid #bdbdbd;
 }
@@ -1452,8 +1506,8 @@ button.saveyourslot:hover {
 
 .borderaround {
   border: 1px solid #c4c4c4;
-  border-radius: 20px;
-  margin: auto;
+  border-radius: 15px;
+  margin-right: 10%;
 }
 .borderaround.radius0 {
   border-radius: 0;
@@ -1533,8 +1587,9 @@ button.saveyourslot:hover {
 }
 
 .relativecontainer {
-  position: absolute;
+  position: relative;
   margin-bottom: 5%;
+  width: 1300px;
 }
 
 .wsmall {
@@ -2573,6 +2628,16 @@ input[type=email].emailinput {
   margin-bottom: 500px;
 }
 
+.itemscovered {
+  margin-bottom: 10%;
+}
+
+.perks {
+  margin-bottom: 10%;
+}
+
+
+
 .signupform input:not(.acceptcheckbox) {
   outline: 0px !important;
   -webkit-appearance: none;
@@ -3245,14 +3310,15 @@ ul.signupsignintabs li a.active {
 
 /* Faq Section */
 
-.faq {
-  margin-top: 4%;
-}
+
+  .faq {
+    margin-bottom: 10%;
+  }
+
 details {
-  font-family: Roboto Light;
   font-style: normal;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 12.5px;
   line-height: 20px;
   color: #000000;
   border-bottom: 1px dotted #706969;
@@ -3261,11 +3327,11 @@ details {
 }
 
 summary {
-  font-family: Roboto Medium;
+margin-left: 3%;
 font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 14px;
+font-weight: 550;
+font-size: 12.5px;
+line-height: 16px;
 letter-spacing: -0.03em;
 
 color: #838383;
@@ -3299,7 +3365,7 @@ details[open] summary {
   flex: 1;
   border: 2px solid rgb(204, 204, 203);
   background: white;
-  border-radius: 20px;s
+  border-radius: 20px;
 }  
 
 .flex-child:first-child {
