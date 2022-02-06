@@ -424,6 +424,10 @@
                                                                           align-items-center
                                                                         ">
                                                     Select Activity Type
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose content type">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
                                                 </label>
                                                 <div class="alignicons">
                                                     <select id="inputState" class="form-control select topselect">
@@ -441,7 +445,12 @@
                                             <div class="col-12 p-0 m-0">
 
 
-                                                <label for="select-admin" class="generalparagraph2 my-3">Title</label>
+                                                <label for="select-admin" class="generalparagraph2 my-3 d-flex">Title
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose a title for the activity">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
+                                                </label>
                                                 <div class="">
                                                     <input type="text" class="form-control" id="title-input"
                                                         placeholder="Enter content title" />
@@ -450,8 +459,13 @@
                                         </div>
                                         <div class="form-group row ml-0">
                                             <div class="col-12 p-0 m-0">
-                                                <label for="select-admin" class="generalparagraph2 my-3">Select Content
-                                                    Topic</label>
+                                                <label for="select-admin" class="generalparagraph2 my-3 d-flex">Select
+                                                    Content Topic
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose a topic for the content">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
+                                                </label>
                                                 <div class="alignicons">
                                                     <select id="select-admin" class="form-control select topselect">
                                                         <option selected>Select Content Topic</option>
@@ -461,10 +475,15 @@
                                             </div>
                                         </div>
                                         <div class="form-group row ml-0">
-                                            <label for="descriptiontextarea" class="generalparagraph2 my-3">Short
-                                                description</label>
+                                            <label for="descriptiontextarea" class="generalparagraph2 my-3 d-flex">Short
+                                                description
+                                                <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                    data-placement="top" title="Briefly describe the new activity">
+                                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                </button>
+                                            </label>
                                             <textarea name="" id="descriptiontextarea" cols="133" rows="5"
-                                                class="form-control" placeholder=""></textarea>
+                                                class="form-control" placeholder="Enter description"></textarea>
                                         </div>
                                     </form>
 
@@ -486,7 +505,7 @@
                                                         <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                             <i class="fa fa-info-circle lightcolor" aria-hidden="true"
                                                                 data-toggle="tooltip" data-placement="top"
-                                                                title="Make activity available on-Demand info">
+                                                                title="This will enable activity to be available on demand">
 
                                                             </i>
                                                         </button>
@@ -495,15 +514,32 @@
                                             </div>
                                             <div class="nameclassroom nameclassroominput row">
                                                 <div class="col-md-4 pl-0 ml-0">
-                                                    <label for="recipient-name" class="my-3 generalparagraph2">Allow
-                                                        access on: </label>
+                                                    <label for="recipient-name"
+                                                        class="my-3 generalparagraph2 d-flex">Allow
+                                                        access on:
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                                data-toggle="tooltip" data-placement="top"
+                                                                title="Date when access begins">
+
+                                                            </i>
+                                                        </button>
+                                                    </label>
                                                     <input type="date" class="form-control" id="datelive" />
                                                 </div>
                                                 <div class="col-md-4">
 
                                                     <div class="alignicons">
-                                                        <label for="recipient-name" class="my-3 generalparagraph2">Start
+                                                        <label for="recipient-name"
+                                                            class="my-3 generalparagraph2 d-flex">Start
                                                             Time
+                                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                                <i class="fa fa-info-circle lightcolor"
+                                                                    aria-hidden="true" data-toggle="tooltip"
+                                                                    data-placement="top" title="The time when access begins">
+
+                                                                </i>
+                                                            </button>
                                                         </label>
 
                                                         <select name="" id="" class="form-control">
@@ -514,8 +550,16 @@
                                                 </div>
                                                 <div class="col-md-4 pr-0 mr-0">
                                                     <label for="recipient-name"
-                                                        class="my-3 generalparagraph2">Duration(in
-                                                        Mins)</label>
+                                                        class="my-3 generalparagraph2 d-flex">Duration(in
+                                                        Mins)
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                                data-toggle="tooltip" data-placement="top"
+                                                                title="This is how long the activity is expected to last">
+
+                                                            </i>
+                                                        </button>
+                                                    </label>
                                                     <input type="text" class="form-control" id="datelive"
                                                         placeholder="State duration of activity" />
                                                 </div>
@@ -529,7 +573,7 @@
                                                 </p>
                                                 <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                     <i class="fa fa-info-circle lightcolor" aria-hidden="true"
-                                                        data-toggle="tooltip" data-placement="top" title="On-demand">
+                                                        data-toggle="tooltip" data-placement="top" title="This will make access to the activity impossible till the access date">
 
                                                     </i>
                                                 </button>
@@ -544,7 +588,12 @@
                                         <div class="col-md-6">
 
                                             <div class="alignicons">
-                                                <label for="recipient-name" class="my-3 generalparagraph2">Related Topic
+                                                <label for="recipient-name"
+                                                    class="my-3 generalparagraph2 d-flex">Related Topic
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose related topics">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
                                                 </label>
 
                                                 <select name="" id="" class="form-control">
@@ -556,8 +605,12 @@
                                         <div class="col-md-6">
 
                                             <div class="alignicons">
-                                                <label for="recipient-name" class="my-3 generalparagraph2">Allow
+                                                <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Allow
                                                     Comments?
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Should comments be enabled?">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
                                                 </label>
 
                                                 <select name="" id="" class="form-control">
@@ -655,7 +708,7 @@
                                                         <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                             <i class="fa fa-info-circle lightcolor" aria-hidden="true"
                                                                 data-toggle="tooltip" data-placement="top"
-                                                                title="Make activity available on-Demand info">
+                                                                title="Choose to make activity available on-Demand">
 
                                                             </i>
                                                         </button>
@@ -665,7 +718,14 @@
                                             <div class="nameclassroom nameclassroominput row">
                                                 <div class="col-md-4 pl-0 ml-0">
                                                     <label for="recipient-name" class="my-3 generalparagraph2">Allow
-                                                        access on: </label>
+                                                        access on:
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                                data-toggle="tooltip" data-placement="top"
+                                                                title="Choose when Access to the activity begins">
+                                                            </i>
+                                                        </button>
+                                                    </label>
                                                     <input type="date" class="form-control" id="datelive" />
                                                 </div>
                                                 <div class="col-md-4">
@@ -673,6 +733,14 @@
                                                     <div class="alignicons">
                                                         <label for="recipient-name" class="my-3 generalparagraph2">Start
                                                             Time
+                                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                                <i class="fa fa-info-circle lightcolor"
+                                                                    aria-hidden="true" data-toggle="tooltip"
+                                                                    data-placement="top"
+                                                                    title="Choose what time access begins">
+
+                                                                </i>
+                                                            </button>
                                                         </label>
 
                                                         <select name="" id="" class="form-control">
@@ -684,7 +752,15 @@
                                                 <div class="col-md-4 pr-0 mr-0">
                                                     <label for="recipient-name"
                                                         class="my-3 generalparagraph2">Duration(in
-                                                        Mins)</label>
+                                                        Mins)
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                                data-toggle="tooltip" data-placement="top"
+                                                                title="Choose access duration">
+
+                                                            </i>
+                                                        </button>
+                                                    </label>
                                                     <input type="text" class="form-control" id="datelive"
                                                         placeholder="State duration of activity" />
                                                 </div>
@@ -1232,6 +1308,10 @@
                                                   align-items-center
                                                 ">
                                                     Select Activity Type
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose content type">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
                                                 </label>
                                                 <div class="alignicons">
                                                     <select id="inputState" class="form-control select topselect">
@@ -1253,6 +1333,10 @@
                                                   align-items-center
                                                 ">
                                                     Select Activity you want to add
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose activity to add">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
                                                 </label>
                                                 <div class="alignicons">
                                                     <select id="inputState" class="form-control select topselect">
@@ -1270,7 +1354,12 @@
                                             <div class="col-12 p-0 m-0">
 
 
-                                                <label for="select-admin" class="generalparagraph2 my-3">Title</label>
+                                                <label for="select-admin" class="generalparagraph2 my-3 d-flex">Title
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose a title for the activity">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
+                                                </label>
                                                 <div class="">
                                                     <input type="text" class="form-control" id="title-input"
                                                         placeholder="Enter content title" />
@@ -1279,8 +1368,14 @@
                                         </div>
                                         <div class="form-group row ml-0">
                                             <div class="col-12 p-0 m-0">
-                                                <label for="select-admin" class="generalparagraph2 my-3">Select Content
-                                                    Topic</label>
+                                                <label for="select-admin" class="generalparagraph2 my-3 d-flex">Select
+                                                    Content
+                                                    Topic
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose a topic for the content">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
+                                                </label>
                                                 <div class="alignicons">
                                                     <select id="select-admin" class="form-control select topselect">
                                                         <option selected>Select Content Topic</option>
@@ -1290,10 +1385,15 @@
                                             </div>
                                         </div>
                                         <div class="form-group row ml-0">
-                                            <label for="descriptiontextarea" class="generalparagraph2 my-3">Short
-                                                description</label>
+                                            <label for="descriptiontextarea" class="generalparagraph2 my-3 d-flex">Short
+                                                description
+                                                <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                    data-placement="top" title="Briefly describe the new activity">
+                                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                </button>
+                                            </label>
                                             <textarea name="" id="descriptiontextarea" cols="133" rows="5"
-                                                class="form-control" placeholder=""></textarea>
+                                                class="form-control" placeholder="Enter description"></textarea>
                                         </div>
                                     </form>
 
@@ -1315,7 +1415,7 @@
                                                         <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                             <i class="fa fa-info-circle lightcolor" aria-hidden="true"
                                                                 data-toggle="tooltip" data-placement="top"
-                                                                title="Make activity available on-Demand info">
+                                                                title="This will enable activity to be available on demand">
 
                                                             </i>
                                                         </button>
@@ -1324,15 +1424,29 @@
                                             </div>
                                             <div class="nameclassroom nameclassroominput row">
                                                 <div class="col-md-4 pl-0 ml-0">
-                                                    <label for="recipient-name" class="my-3 generalparagraph2">Allow
-                                                        access on: </label>
+                                                    <label for="recipient-name"
+                                                        class="my-3 generalparagraph2 d-flex">Allow
+                                                        access on:
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-2"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Date when access begins">
+                                                            <i class="fa fa-info-circle lightcolor"
+                                                                aria-hidden="true"></i>
+                                                        </button></label>
                                                     <input type="date" class="form-control" id="datelive" />
                                                 </div>
                                                 <div class="col-md-4">
 
                                                     <div class="alignicons">
-                                                        <label for="recipient-name" class="my-3 generalparagraph2">Start
+                                                        <label for="recipient-name"
+                                                            class="my-3 generalparagraph2 d-flex">Start
                                                             Time
+                                                            <button class="btn p-0 m-0 d-flex mb-0 ml-2"
+                                                                data-toggle="tooltip" data-placement="top"
+                                                                title="The time when access begins">
+                                                                <i class="fa fa-info-circle lightcolor"
+                                                                    aria-hidden="true"></i>
+                                                            </button>
                                                         </label>
 
                                                         <select name="" id="" class="form-control">
@@ -1343,8 +1457,15 @@
                                                 </div>
                                                 <div class="col-md-4 pr-0 mr-0">
                                                     <label for="recipient-name"
-                                                        class="my-3 generalparagraph2">Duration(in
-                                                        Mins)</label>
+                                                        class="my-3 generalparagraph2 d-flex">Duration(in
+                                                        Mins)
+                                                        <button class="btn p-0 m-0 d-flex mb-0 ml-2"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="This is how long the activity is expected to last">
+                                                            <i class="fa fa-info-circle lightcolor"
+                                                                aria-hidden="true"></i>
+                                                        </button>
+                                                    </label>
                                                     <input type="text" class="form-control" id="datelive"
                                                         placeholder="State duration of activity" />
                                                 </div>
@@ -1358,7 +1479,7 @@
                                                 </p>
                                                 <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                     <i class="fa fa-info-circle lightcolor" aria-hidden="true"
-                                                        data-toggle="tooltip" data-placement="top" title="On-demand">
+                                                        data-toggle="tooltip" data-placement="top" title="This will make access to the activity impossible till the access date">
 
                                                     </i>
                                                 </button>
@@ -1373,11 +1494,17 @@
                                         <div class="col-md-6">
 
                                             <div class="alignicons">
-                                                <label for="recipient-name" class="my-3 generalparagraph2">Related Topic
+                                                <label for="recipient-name"
+                                                    class="my-3 generalparagraph2 d-flex">Related Topic
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Choose related topics">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
                                                 </label>
 
                                                 <select name="" id="" class="form-control">
-                                                    <option value="" selected>Topic</option>
+                                                    <option value="" selected>Topic
+                                                    </option>
                                                     <option value=""></option>
                                                 </select>
                                             </div>
@@ -1385,8 +1512,12 @@
                                         <div class="col-md-6">
 
                                             <div class="alignicons">
-                                                <label for="recipient-name" class="my-3 generalparagraph2">Allow
+                                                <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Allow
                                                     Comments?
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                                        data-placement="top" title="Should comments be enabled?">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                                                    </button>
                                                 </label>
 
                                                 <select name="" id="" class="form-control">
@@ -1609,8 +1740,14 @@
                                 <div class="col-10">
 
                                     <div class="alignicons">
-                                        <label for="" class="mainheader3 mb-2 px-1 darkergray">By activity
-                                            type</label>
+                                        <label for="" class="mainheader3 mb-2 px-1 darkergray d-flex">By activity
+                                            type
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                            data-placement="top" title="Filter by activity">
+                                            <i class=" fa fa-info-circle lightcolor mb-2" aria-hidden="true">
+                                            </i>
+                                        </button>
+                                        </label>                                        
                                         <select id="inputState" class="form-control select topselect pl-3">
                                             <option selected>
                                                 Select activity type
@@ -1629,8 +1766,14 @@
                                 <div class="col-10">
 
                                     <div class="alignicons">
-                                        <label for="" class="mainheader3 mb-2 px-1 darkergray">By activity
-                                            type</label>
+                                        <label for="" class="mainheader3 mb-2 px-1 darkergray d-flex">By activity
+                                            type
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                            data-placement="top" title="Filter by activity">
+                                            <i class=" fa fa-info-circle lightcolor mb-2" aria-hidden="true">
+                                            </i>
+                                        </button>
+                                    </label>
                                         <select id="" class="form-control select topselect pl-3">
                                             <option selected>
                                                 Select Publish Status
@@ -1650,8 +1793,14 @@
                                 <div class="col-10">
 
                                     <div class="alignicons">
-                                        <label for="" class="mainheader3 mb-2 px-1 darkergray">By activity
-                                            type</label>
+                                        <label for="" class="mainheader3 mb-2 px-1 darkergray d-flex">By activity
+                                            type
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                            data-placement="top" title="Filter by activity">
+                                            <i class=" fa fa-info-circle lightcolor mb-2" aria-hidden="true">
+                                            </i>
+                                        </button>
+                                    </label>
                                         <select id="" class="form-control select topselect pl-3">
                                             <option selected>
                                                 Lock/Unlock
@@ -1671,7 +1820,13 @@
                                 <div class="col-10">
 
                                     <div class="alignicons">
-                                        <label for="" class="mainheader3 mb-2 px-1 darkergray">Premium or Free</label>
+                                        <label for="" class="mainheader3 mb-2 px-1 darkergray d-flex">Premium or Free
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip"
+                                            data-placement="top" title="Filter by Payment plan">
+                                            <i class=" fa fa-info-circle lightcolor mb-2" aria-hidden="true">
+                                            </i>
+                                        </button>
+                                        </label>
                                         <select id="" class="form-control select topselect pl-3">
                                             <option selected>
                                                 Free Activities
