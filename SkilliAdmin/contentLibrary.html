@@ -289,8 +289,18 @@
                                     <form class="nameclassroom nameclassroominput">
                                         <div class="form-group row ml-0">
                                             <div class="col-12 p-0 m-0">
-                                                <label for="select-admin" class="generalparagraph2 my-3">Select Content
-                                                    Type</label>
+                                                <div class="d-flex">
+                                                    <label for="select-admin" class="generalparagraph2 my-3">Select
+                                                        Content
+                                                        Type</label>
+                                                    <button class="btn p-0 m-0 mb-0 ml-3">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Choose a content">
+
+                                                        </i>
+                                                    </button>
+                                                </div>
                                                 <div class="alignicons">
                                                     <select id="select-admin" class="form-control select topselect">
                                                         <option selected>Select Content Type</option>
@@ -308,11 +318,19 @@
                                         <div class="form-group row ml-0">
                                             <div class="col-12 p-0 m-0">
 
-
-                                                <label for="select-admin" class="generalparagraph2 my-3">Title</label>
+                                                <div class="d-flex">
+                                                    <label for="select-admin"
+                                                        class="generalparagraph2 my-3">Title</label>
+                                                    <button class="btn p-0 m-0 mb-0 ml-3">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Give the content a title ">
+                                                        </i>
+                                                    </button>
+                                                </div>
                                                 <div class="">
                                                     <input type="text" class="form-control" id="title-input"
-                                                        placeholder="Enter content title" />
+                                                        placeholder="Enter title" />
                                                 </div>
                                             </div>
                                         </div>
@@ -323,8 +341,18 @@
                                         </p>
                                         <div class="form-group row ml-0">
                                             <div class="col-12 p-0 m-0">
-                                                <label for="select-admin" class="generalparagraph2 my-3">Select Content
-                                                    Topic</label>
+                                                <div class="d-flex">
+                                                    <label for="select-admin" class="generalparagraph2 my-3">Select
+                                                        Content
+                                                        Topic</label>
+                                                    <button class="btn p-0 m-0 mb-0 ml-3">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Choose a content topic">
+
+                                                        </i>
+                                                    </button>
+                                                </div>
                                                 <div class="alignicons">
                                                     <select id="select-admin" class="form-control select topselect">
                                                         <option selected>Select Content Topic</option>
@@ -334,10 +362,19 @@
                                             </div>
                                         </div>
                                         <div class="form-group row ml-0">
-                                            <label for="descriptiontextarea" class="generalparagraph2 my-3">Short
-                                                description</label>
+                                            <div class="d-flex">
+                                                <label for="descriptiontextarea" class="generalparagraph2 my-3">Short
+                                                    description</label>
+                                                <button class="btn p-0 m-0 mb-0 ml-3">
+                                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                        data-toggle="tooltip" data-placement="top"
+                                                        title="Briefly describe the content">
+
+                                                    </i>
+                                                </button>
+                                            </div>
                                             <textarea name="" id="descriptiontextarea" cols="133" rows="5"
-                                                class="form-control" placeholder=""></textarea>
+                                                class="form-control" placeholder="Enter description"></textarea>
                                         </div>
 
                                     </form>
@@ -629,27 +666,22 @@
                                     </h5>
                                     <p class="generalparagraph2 text-center">This action cannot be undone</p>
                                 </div>
-                                  <div class="modal-body">
-                        <div
-                          class="
+                                <div class="modal-body">
+                                    <div class="
                             d-flex
                             align-items-center
                             justify-content-center
                             generalparagraph
-                          "
-                        >
-                          <button
-                            class="btn generalparagraph cancelbtn mr-3"
-                            data-dismiss="modal"
-                            aria-label="Close"
-                          >
-                            Cancel
-                          </button>
-                          <button class="btn generalparagraph deletebtn">
-                            Delete
-                          </button>
-                        </div>
-                      </div>
+                          ">
+                                        <button class="btn generalparagraph cancelbtn mr-3" data-dismiss="modal"
+                                            aria-label="Close">
+                                            Cancel
+                                        </button>
+                                        <button class="btn generalparagraph deletebtn">
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -678,6 +710,12 @@
                             <div class="form-group row filtercontentinput ">
                                 <div class="col-10">
                                     <label for="" class="mainheader3 mb-2 px-1 darkergray">By Topic
+                                        <button class="btn p-0 m-0 mb-0 ml-3">
+                                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                data-toggle="tooltip" data-placement="top"
+                                                title="Filter by topic">
+                                            </i>
+                                        </button>
                                     </label>
                                     <div class="alignicons">
                                         <select id="inputState" class="form-control select topselect pl-3">
@@ -699,7 +737,14 @@
 
                                     <div class="alignicons">
                                         <label for="" class="mainheader3 mb-2 px-1 darkergray">By activity
-                                            type</label>
+                                            type
+                                            <button class="btn p-0 m-0 mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top"
+                                                    title="Filter by activity">
+                                                </i>
+                                            </button>
+                                        </label>
                                         <select id="" class="form-control select topselect pl-3">
                                             <option selected>
                                                 Select Activity type
@@ -936,7 +981,14 @@
                                                     <div class="form-group row ml-0">
                                                         <div class="col-12 p-0 m-0">
                                                             <label for="recipient-name"
-                                                                class="my-3 generalparagraph2">Label</label>
+                                                                class="my-3 generalparagraph2">Label
+                                                                <button class="btn p-0 m-0 mb-0 ml-3">
+                                                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                                                        data-placement="top" title="Give the topic a name">
+                                      
+                                                                    </i>
+                                                                </button>
+                                                            </label>
                                                             <div class="">
                                                                 <input type="text" class="form-control"
                                                                     id="recipient-name" placeholder="" />
@@ -949,7 +1001,14 @@
                                                         <div class="col-12 p-0 m-0">
                                                             <label for="recipient-name"
                                                                 class="my-3 generalparagraph2">Short
-                                                                Description</label>
+                                                                Description
+                                                                <button class="btn p-0 m-0 mb-0 ml-3">
+                                                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                                                        data-placement="top" title="Briefly desctibe the topic">
+                                      
+                                                                    </i>
+                                                                </button>
+                                                            </label>
                                                             <textarea name="" id="" cols="133" rows="5"
                                                                 class="form-control" placeholder=""></textarea>
                                                         </div>
