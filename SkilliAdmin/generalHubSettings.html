@@ -217,8 +217,11 @@
             </div>
             <div class="col-md-9 mt-5">
               <div class="nameclassroom nameclassroominput">
-                <h2 class="generalparagraph2">Name your Learning Hub</h2>
-                <input class="form-control mb-4" type="text" placeholder="Agrohub" />
+                <h2 class="generalparagraph2">Name your Learning Hub
+                  <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                              data-placement="top" title="Choose a name for your learning hub"></i>
+                </h2>
+                <input class="form-control mb-4" type="text" placeholder="e.g Agrohub" />
 
 
 
@@ -246,7 +249,10 @@
             </div>
             <div class="col-md-9 mt-5">
               <div class="nameclassroom nameclassroominput">
-                <h2 class="generalparagraph2">Access Type</h2>
+                <h2 class="generalparagraph2">Access Type 
+                  <i  class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                              data-placement="top" title="Choose an access type"></i>
+                </h2>
                 <div class="mb-3 alignicons">
                   <select id="toggledependency" class="form-control select topselect">
                     <option selected>Free</option>
@@ -350,15 +356,15 @@
                   <form action="">
                     <input type="checkbox" class="toggle-switch2 p-0 m-0 mr-3">
                   </form>
-                  <p class="generalparagraph mb-0 darkergray">
+                  <p class="generalparagraph mb-0 darkergray d-flex">
                     Waitlist
-                  </p>
+                  
                   <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                     <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
-                      data-placement="top" title="Waitlist info">
-
+                      data-placement="top" title="Should there be a waitlist?">
                     </i>
                   </button>
+                </p>
                 </div>
                 <div class="row py-4">
                   <div class="col-12 mt-2">
@@ -372,7 +378,7 @@
                         visitor who attempts to
                         enrol will be only be able to join a waiting list. After the enrolment close date, your course
                         will be unavailable for
-                        students to enrol into , neither will there be a waiting list after the closing date. If you
+                        students to enrol into , neither will there be d a waiting list after the closing date. If you
                         dont sent an enrolment
                         close date, your course will always be available to enrol.
                       </p>
@@ -381,12 +387,26 @@
                   <div class="col-12 p-0 m-0">
                     <div class="nameclassroom nameclassroominput row">
                       <div class="col-md-6 pl-0 ml-0">
-                        <h2 class="generalparagraph2">Date to close enrolment</h2>
+                        <h2 class="generalparagraph2 d-flex">Date to close enrolment
+                        <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                          <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                            data-placement="top" title="Choose a closing date for enrolment ">
+      
+                          </i>
+                        </button>
+                      </h2> 
                         <input class="form-control mb-4" type="date" />
                       </div>
                       <div class="col-md-6 pr-0 mr-0">
                         <div class="d-flex align-items-center">
-                          <h2 class="generalparagraph2">Select Timezone</h2>
+                          <h2 class="generalparagraph2 d-flex">Select Timezone
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                data-placement="top" title="Choose a time zone">
+          
+                              </i>
+                            </button>
+                          </h2>
 
                         </div>
                         <div class="alignicons">
