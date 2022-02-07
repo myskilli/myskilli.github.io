@@ -711,7 +711,8 @@ button.agrowatchnowbtn:hover {
 
 .innercontainer {
   border-radius: 20px;
-  height: 90vh;
+  min-height: 100vh;
+  margin-bottom: 2rem;
 }
 
 .mainheader {
