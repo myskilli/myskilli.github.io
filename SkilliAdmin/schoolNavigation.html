@@ -279,13 +279,7 @@
                     <div class="row whiteborderbottom pb-5">
                         <div class="mycol-2 mt-5 mx-lg-4">
                             <div class="d-flex align-items-center mb-2">
-                                <h2 class="mainheader3 mb-0">Default page Settings</h2>
-                                <button class="btn p-0 m-0 d-flex mb-0 ml-3">
-                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
-                                        data-placement="top" title="Upload your Logo">
-
-                                    </i>
-                                </button>
+                                <h2 class="mainheader3 mb-0">Default page Settings</h2>                                
                             </div>
                             <p class="generalparagraph darkergray">
                                 Choose what page acts as your school's homepage. You can set different homepages for
@@ -301,7 +295,7 @@
                                             <h2 class="generalparagraph2 mb-0">Logged Out</h2>
                                             <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                 <i class="fa fa-info-circle lightcolor" aria-hidden="true"
-                                                    data-toggle="tooltip" data-placement="top" title="Logged Out">
+                                                    data-toggle="tooltip" data-placement="top" title="Set home page for logged out users">
 
                                                 </i>
                                             </button>
@@ -327,12 +321,13 @@
                                         </div>
 
                                     </div>
-                                    <div class="col-md-6">
+
+                                    <div class="col-md-6 log_col">
                                         <div class="d-flex align-items-center mb-2">
                                             <h2 class="generalparagraph2 mb-0">Logged in</h2>
                                             <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                 <i class="fa fa-info-circle lightcolor" aria-hidden="true"
-                                                    data-toggle="tooltip" data-placement="top" title="Logged in">
+                                                    data-toggle="tooltip" data-placement="top" title="Set home page for logged in users">
 
                                                 </i>
                                             </button>
@@ -728,7 +723,7 @@
                                             <h2 class="generalparagraph2 mb-0">Allow Sign-up?</h2>
                                             <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                 <i class="fa fa-info-circle lightcolor" aria-hidden="true"
-                                                    data-toggle="tooltip" data-placement="top" title="allow sign up">
+                                                    data-toggle="tooltip" data-placement="top" title="Should sign-up be allowed?">
 
                                                 </i>
                                             </button>
@@ -746,7 +741,7 @@
                                             <h2 class="generalparagraph2 mb-0">Allow Sign in?</h2>
                                             <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                                 <i class="fa fa-info-circle lightcolor" aria-hidden="true"
-                                                    data-toggle="tooltip" data-placement="top" title="allow sign in">
+                                                    data-toggle="tooltip" data-placement="top" title="Should sign-in be allowed?">
 
                                                 </i>
                                             </button>
@@ -1477,9 +1472,15 @@
                                     <form class="nameclassroom nameclassroominput">
                                         <div class="form-group row ml-0">
                                             <div class="col-12 p-0 m-0">
-                                                <label class="my-3 generalparagraph2">Label</label>
+                                                <label class="my-3 generalparagraph2 d-flex">Label
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                            data-toggle="tooltip" data-placement="top" title="Give Category a name">
+                                                        </i>
+                                                    </button>
+                                                </label>
                                                 <div class="">
-                                                    <input type="text" class="form-control" placeholder="" />
+                                                    <input type="text" class="form-control" placeholder="Enter name" />
                                                 </div>
                                             </div>
                                         </div>
@@ -1487,14 +1488,25 @@
 
                                         <div class="form-group row ml-0">
                                             <div class="col-12 p-0 m-0">
-                                                <label for="recipient-name" class="my-3 generalparagraph2">Short
-                                                    Description</label>
+                                                <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Short
+                                                    Description
+                                                    <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                        <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                            data-toggle="tooltip" data-placement="top" title="Briefly describe the category">
+                                                        </i>
+                                                    </button>
+                                                </label>
                                                 <textarea name="" id="" cols="133" rows="5" class="form-control"
-                                                    placeholder=""></textarea>
+                                                    placeholder="Enter description"></textarea>
                                             </div>
                                         </div>
                                         <a href="#" class="generalparagraph darkergray nounderlinelink">
                                             Upload image
+                                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                                    data-toggle="tooltip" data-placement="top" title="Insert an image">
+                                                </i>
+                                            </button>
                                         </a>
                                     </form>
 
@@ -1551,7 +1563,7 @@
                                                         to link to</label>
                                                     <i class="fa fa-info-circle lightcolor ml-3 mb-2" aria-hidden="true"
                                                         data-toggle="tooltip" data-placement="top"
-                                                        title="page title info">
+                                                        title="Choose a page type">
 
                                                     </i>
                                                 </div>
@@ -1573,7 +1585,7 @@
                                                     </label>
                                                     <i class="fa fa-info-circle lightcolor ml-3 mb-2" aria-hidden="true"
                                                         data-toggle="tooltip" data-placement="top"
-                                                        title="page title info">
+                                                        title="Choose a page type">
 
                                                     </i>
                                                 </div>
@@ -1592,7 +1604,7 @@
                                                     </label>
                                                     <i class="fa fa-info-circle lightcolor ml-3 mb-2" aria-hidden="true"
                                                         data-toggle="tooltip" data-placement="top"
-                                                        title="page title info">
+                                                        title="Choose a page type">
 
                                                     </i>
                                                 </div>
@@ -1611,7 +1623,7 @@
                                                     </label>
                                                     <i class="fa fa-info-circle lightcolor ml-3 mb-2" aria-hidden="true"
                                                         data-toggle="tooltip" data-placement="top"
-                                                        title="page title info">
+                                                        title="Choose a page type">
 
                                                     </i>
                                                 </div>
@@ -1659,7 +1671,7 @@
                                                             class="generalparagraph2">Location</label>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page location info">
+                                                            data-placement="top" title="Choose Location">
 
                                                         </i>
                                                     </div>
@@ -1680,12 +1692,12 @@
                                                             Text</h2>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Enter the text for the link">
 
                                                         </i>
                                                     </div>
                                                     <div>
-                                                        <input type="text" placeholder="Enter content title"
+                                                        <input type="text" placeholder="Enter content text"
                                                             class="form-control">
                                                     </div>
                                                 </div>
@@ -1698,7 +1710,7 @@
                                                             to link to</label>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Choose a page type to link to ">
 
                                                         </i>
                                                     </div>
@@ -1721,7 +1733,7 @@
                                                         </label>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Choose a page to link to ">
 
                                                         </i>
                                                     </div>
@@ -1741,7 +1753,7 @@
                                                         </label>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Choose a page to link to ">
 
                                                         </i>
                                                     </div>
@@ -1761,7 +1773,7 @@
                                                         </label>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Choose a page to link to ">
 
                                                         </i>
                                                     </div>
@@ -1783,7 +1795,7 @@
                                                             to</label>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Choose where the link can be shown">
 
                                                         </i>
                                                     </div>
@@ -1802,7 +1814,7 @@
                                                         </label>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Should the link open in a new tab?">
 
                                                         </i>
                                                     </div>
@@ -1852,12 +1864,12 @@
                                                             Page Title</h2>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Choose page title ">
 
                                                         </i>
                                                     </div>
                                                     <div>
-                                                        <input type="text" placeholder="e.g about us"
+                                                        <input type="text" placeholder="e.g About us"
                                                             class="form-control">
                                                     </div>
                                                 </div>
@@ -1870,12 +1882,12 @@
                                                             Page URL</h2>
                                                         <i class="fa fa-info-circle lightcolor ml-3 mb-2"
                                                             aria-hidden="true" data-toggle="tooltip"
-                                                            data-placement="top" title="page title info">
+                                                            data-placement="top" title="Input page URL">
 
                                                         </i>
                                                     </div>
                                                     <div>
-                                                        <input type="text" placeholder="e.g about" class="form-control">
+                                                        <input type="text" placeholder="Enter page URL" class="form-control">
                                                     </div>
                                                 </div>
                                             </div>
@@ -1886,7 +1898,7 @@
                                                         Rule</label>
                                                     <i class="fa fa-info-circle lightcolor ml-3 mb-2" aria-hidden="true"
                                                         data-toggle="tooltip" data-placement="top"
-                                                        title="page title info">
+                                                        title="Select requirement for user access">
 
                                                     </i>
                                                 </div>
@@ -1905,7 +1917,7 @@
                                                     </label>
                                                     <i class="fa fa-info-circle lightcolor ml-3 mb-2" aria-hidden="true"
                                                         data-toggle="tooltip" data-placement="top"
-                                                        title="page title info">
+                                                        title="Select page’s status">
 
                                                     </i>
                                                 </div>
