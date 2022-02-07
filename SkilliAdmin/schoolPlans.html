@@ -295,20 +295,29 @@
                     <form class="nameclassroom nameclassroominput">
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="my-3                             generalparagraph2">Plan
-                            Name</label>
+                          <label for="recipient-name" class="my-3  generalparagraph2 d-flex">
+                            Plan Name
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                            title="Give the plan a name">
+                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                          </button></label>
                           <div class="">
-                            <input type="text" class="form-control" id="recipient-name" placeholder="Name your plan" />
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Enter name" />
                           </div>
                         </div>
                       </div>
 
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="my-3 generalparagraph2">Plan
-                            Description</label>
+                          <label for="recipient-name" class="my-3 generalparagraph2 d-flex">
+                            Plan Description                            
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="Briefly describe the plan">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
+                          </label>
                           <input type="text" class="form-control" id="recipient-name"
-                            placeholder="Short description of the plan" />
+                            placeholder="Enter description" />
 
                         </div>
                       </div>
@@ -322,8 +331,8 @@
                                                     ">
                             Recurring Payment
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                              title="Should the payment occur periodically?">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
                             </button>
                           </label>
                           <div class="alignicons">
@@ -342,8 +351,8 @@
                             Recurring Fee
 
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                              title="How much is the fee">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
                             </button>
                           </label>
                           <div class="">
@@ -358,8 +367,8 @@
                                                     ">Recurring Frequency
 
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i></button></label>
+                              title="How often do you renew the plan?">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i></button></label>
 
                           <div class="alignicons">
 
@@ -376,9 +385,13 @@
 
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="my-3 generalparagraph2">Plan
-                            Features</label>
-                          <input type="text" class="form-control" id="recipient-name" placeholder="Describe feature" />
+                          <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Plan
+                            Features
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="You can explain the features of the plan here">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i></button>
+                            </label>
+                          <input type="text" class="form-control" id="recipient-name" placeholder="List the features" />
 
                         </div>
                       </div>
@@ -387,12 +400,16 @@
                       <div class="d-flex justify-content-between">
                         <a href="#" class="mainheader3 greencolor" id="addfeature">
                           + Add Feature
-
+                          <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="This adds a feature">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i></button>
                         </a>
 
                         <a href="#" class="mainheader3 text-danger" id="removefeature">
                           - Remove Feature
-
+                          <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="This removes a feature">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i></button>
                         </a>
                       </div>
                     </form>
@@ -423,15 +440,23 @@
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
                           <label for="recipient-name" class="my-3 generalparagraph2">Plan Name</label>
+                          <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="Choose a plan name">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
                           <div class="">
-                            <input type="text" class="form-control" id="recipient-name" placeholder="Name your plan" />
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Enter plan name" />
                           </div>
                         </div>
                       </div>
 
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="my-3 generalparagraph2">Plan Description</label>
+                          <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Plan Description</label>
+                          <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="Briefly describe your plan">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
                           <input type="text" class="form-control" id="recipient-name"
                             placeholder="Short description of the plan" />
                         </div>
@@ -446,7 +471,10 @@
                                 align-items-center
                               ">
                             Plan Level
-                          </label>
+                          </label><button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                          title="At what level should your plan be executed">
+                          <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                        </button>
                           <div class="alignicons">
                             <select id="inputState" class="form-control select topselect">
                               <option selected>Select level</option>
@@ -462,7 +490,10 @@
                                 d-flex
                                 align-items-center
                               ">Free or Premium
-                          </label>
+                          </label><button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                          title="Decide if this will be free or paid for">
+                          <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                        </button>
                           <div class="alignicons">
                             <select id="inputState" class="form-control select topselect">
                               <option selected>Free</option>
@@ -481,8 +512,8 @@
                               ">
                             Recurring Payment
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                              title="Do you want payment for this plan to be made more than once?">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
                             </button>
                           </label>
                           <div class="alignicons">
@@ -502,8 +533,8 @@
                             Recurring Fee
 
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                              title="How much should be paid?">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
                             </button>
                           </label>
                           <div class="">
@@ -519,8 +550,8 @@
                               ">Recurring Frequency
 
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i></button></label>
+                              title="How often should payment be made?">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i></button></label>
 
                           <div class="alignicons">
                             <select id="inputState" class="form-control select topselect">
@@ -728,18 +759,28 @@
                     <form class="nameclassroom nameclassroominput">
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="my-3 generalparagraph2">Plan Name</label>
+                          <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Plan Name
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="Give the plan a name">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
+                          </label>
                           <div class="">
-                            <input type="text" class="form-control" id="recipient-name" placeholder="Name your plan" />
+                            <input type="text" class="form-control" id="recipient-name" placeholder="Enter name" />
                           </div>
                         </div>
                       </div>
 
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="my-3 generalparagraph2">Plan Description</label>
+                          <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Plan Description
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="Briefly describe the plan">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
+                          </label>
                           <input type="text" class="form-control" id="recipient-name"
-                            placeholder="Short description of the plan" />
+                            placeholder="Enter description" />
                         </div>
                       </div>
 
@@ -752,6 +793,10 @@
                                 align-items-center
                               ">
                             Plan Level
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="Choose a plan level">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
                           </label>
                           <div class="alignicons">
                             <select id="inputState" class="form-control select topselect">
@@ -768,6 +813,10 @@
                                 d-flex
                                 align-items-center
                               ">Free or Premium
+                              <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="Should it be a paid-for plan or a free plan?">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
                           </label>
                           <div class="alignicons">
                             <select id="inputState" class="form-control select topselect">
@@ -787,8 +836,8 @@
                               ">
                             Recurring Payment
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                              title="Should the payment occur periodically?">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
                             </button>
                           </label>
                           <div class="alignicons">
@@ -808,8 +857,8 @@
                             Recurring Fee
 
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                              title="How much is the fee?">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
                             </button>
                           </label>
                           <div class="">
@@ -825,8 +874,8 @@
                               ">Recurring Frequency
 
                             <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i></button></label>
+                              title="How often do you renew the plan? ">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i></button></label>
 
                           <div class="alignicons">
                             <select id="inputState" class="form-control select topselect">
@@ -841,8 +890,13 @@
 
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="my-3 generalparagraph2">Plan Features</label>
-                          <input type="text" class="form-control" id="recipient-name" placeholder="Describe feature" />
+                          <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Plan Features
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="You can explain the features of the plan here">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
+                          </label>
+                          <input type="text" class="form-control" id="recipient-name" placeholder="List the features" />
                         </div>
                       </div>
 
@@ -850,10 +904,18 @@
                       <div class="d-flex justify-content-between">
                         <a href="#" class="mainheader3 greencolor" id="addfeature">
                           + Add Feature
+                          <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="This adds a feature">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
                         </a>
 
                         <a href="#" class="mainheader3 text-danger" id="removefeature">
                           - Remove Feature
+                          <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
+                              title="This removes a feature">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
+                            </button>
                         </a>
                       </div>
                     </form>
@@ -935,22 +997,28 @@
                     <form class="nameclassroom nameclassroominput">
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="generalparagraph2">Instalment
-                            Title</label>
-                          <input type="text" class="form-control" placeholder="e.g installment1">
+                          <label for="recipient-name" class="generalparagraph2 d-flex">Instalment Title 
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                  data-toggle="tooltip" data-placement="top" title="Enter an instalment title">
+                              </i>
+                          </button></label>
+                          <input type="text" class="form-control" placeholder="e.g instalment1">
                         </div>
                       </div>
 
                       <div class="form-group d-flex my-2">
                         <div class="col-md-6 p-0 m-0 mr-3">
                           <label for="message-text" class="
-                                                                                        generalparagraph2
-                                                                                        my-3
-                                                          d-flex
-                                                          align-items-center
-                                                        ">
+                          generalparagraph2  my-3 d-flex
+                          align-items-center ">
                             Free
-                          </label>
+                          
+                          <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                            <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                data-toggle="tooltip" data-placement="top" title="Should Installment be free?">
+                            </i>
+                        </button></label>
                           <div class="alignicons">
                             <select id="toggleinstallmentfee" class="form-control select topselect">
                               <option selected>Yes</option>
@@ -981,8 +1049,8 @@
                                                                                                                                 ">
                             Allow Access Expiry?
                             <a class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                              title="Role of the admin">
-                              <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                              title="Choose from options">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
                             </a>
                           </label>
                           <div class="alignicons">
@@ -1006,8 +1074,8 @@
                                                         ">
                               Hub Access Duration (in days)
                               <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                                title="Role of the admin">
-                                <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
+                                title="For how long the hub should be accessible?">
+                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i>
                               </button>
                             </label>
                             <div class="">
@@ -1022,8 +1090,8 @@
                                                         ">Content Access Duration (in days)
 
                               <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                                title="Role of the admin">
-                                <i class="fa fa-info-circle darkergray" aria-hidden="true"></i></button></label>
+                                title="For how long the content should be accessible?">
+                                <i class="fa fa-info-circle lightcolor" aria-hidden="true"></i></button></label>
                             <input type="text" class="form-control" id="recipient-email"
                               placeholder="Enter No. of days" />
                           </div>
@@ -1041,7 +1109,7 @@
                                                         ">
                               Hub Access Cut-off Date
                               <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                                title="Role of the admin">
+                                title="Date when hub access ends">
                                 <i class="fa fa-info-circle darkergray" aria-hidden="true"></i>
                               </button>
                             </label>
@@ -1057,7 +1125,7 @@
                                                         ">Content Access Cut off Date
 
                               <button class="btn p-0 m-0 d-flex mb-0 ml-2" data-toggle="tooltip" data-placement="top"
-                                title="Role of the admin">
+                                title="Date when content access ends">
                                 <i class="fa fa-info-circle darkergray" aria-hidden="true"></i></button></label>
                             <input type="date" class="form-control" id="recipient-email"
                               placeholder="Enter No. of days" />
@@ -1066,17 +1134,26 @@
                       </div>
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="generalparagraph2">Action
-                            button
-                            label</label>
+                          <label for="recipient-name" class="generalparagraph2 d-flex">Action button label
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                  data-toggle="tooltip" data-placement="top" title="Choose what the access button reads">
+                              </i>
+                          </button>
+                          </label>
                           <input type="text" class="form-control" id="recipient-name" placeholder="e.g Subscribe" />
 
                         </div>
                       </div>
                       <div class="form-group row ml-0">
                         <div class="col-12 p-0 m-0">
-                          <label for="recipient-name" class="generalparagraph2">Email
-                            Tracking LIst ID</label>
+                          <label for="recipient-name" class="generalparagraph2 d-flex">Email Tracking LIst ID
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true"
+                                  data-toggle="tooltip" data-placement="top" title="This will notify you when any email you sent has been opened or clicked">
+                              </i>
+                          </button>
+                          </label>
                           <input type="text" class="form-control" id="recipient-name"
                             placeholder="Enter email list ID" />
 
