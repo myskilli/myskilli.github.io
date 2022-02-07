@@ -2124,23 +2124,41 @@
                       <form class="nameclassroom nameclassroominput">
                         <div class="form-group row ml-0">
                           <div class="col-12 p-0 m-0">
-                            <label for="select-admin" class="generalparagraph2 my-3">Title</label>
+                            <label for="select-admin" class="generalparagraph2 my-3">Title
+                              <button class="btn p-0 m-0 mb-0 ml-3">
+                                <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                    data-placement="top" title="Give event a name">
+                                </i>
+                              </button>                              
+                            </label>
                             <div class="">
                               <input type="text" class="form-control" id="title-input"
-                                placeholder="Enter content title" />
+                                placeholder="Enter title" />
                             </div>
                           </div>
                         </div>
 
                         <div class="form-group row ml-0">
-                          <label for="descriptiontextarea" class="generalparagraph2 my-3">Short description</label>
+                          <label for="descriptiontextarea" class="generalparagraph2 my-3">Short description
+                            <button class="btn p-0 m-0 mb-0 ml-3">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                  data-placement="top" title="Briefly describe the event">
+                              </i>
+                            </button>
+                          </label>
                           <textarea name="" id="descriptiontextarea" cols="133" rows="5" class="form-control"
-                            placeholder=""></textarea>
+                            placeholder="Enter description"></textarea>
                         </div>
                         <div class="form-group row ml-0">
                           <div class="col-12 p-0 m-0">
                             <label for="select-admin" class="generalparagraph2 my-3">Select Zoom Meeting/Webinar
-                              Host</label>
+                              Host
+                              <button class="btn p-0 m-0 mb-0 ml-3">
+                                <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                    data-placement="top" title="Choose a host">
+                                </i>
+                              </button>
+                            </label>
                             <div class="alignicons">
                               <select id="select-admin" class="form-control select topselect">
                                 <option selected>Select Host</option>
@@ -2164,7 +2182,7 @@
                                 </p>
                                 <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                   <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
-                                    data-placement="top" title="Make activity available on-Demand info">
+                                    data-placement="top" title="This will enable activity to be available on demand">
                                   </i>
                                 </button>
                               </div>
@@ -2172,13 +2190,23 @@
 
                             <div class="nameclassroom nameclassroominput row">
                               <div class="col-md-6 pl-0 ml-0">
-                                <label class="my-3 generalparagraph2">Activity Date
+                                <label class="my-3 generalparagraph2 d-flex">Activity Date
+                                  <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                      data-placement="top" title="This is the date the activity holds">
+                                    </i>
+                                  </button>
                                 </label>
                                 <input type="date" class="form-control" id="datelive" />
                               </div>
                               <div class="col-md-6">
                                 <div class="alignicons">
-                                  <label for="recipient-name" class="my-3 generalparagraph2">Timezone
+                                  <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Timezone
+                                    <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                      <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                        data-placement="top" title="Choose a Timezone">
+                                      </i>
+                                    </button>
                                   </label>
 
                                   <select name="" id="" class="form-control">
@@ -2191,7 +2219,12 @@
                               </div>
                               <div class="col-md-4 pl-0">
                                 <div class="alignicons">
-                                  <label for="recipient-name" class="my-3 generalparagraph2">Start Time
+                                  <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Start Time
+                                    <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                      <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                        data-placement="top" title="The time when access begins">
+                                      </i>
+                                    </button>
                                   </label>
 
                                   <select name="" id="" class="form-control">
@@ -2202,7 +2235,12 @@
                               </div>
                               <div class="col-md-4 pl-0">
                                 <div class="alignicons">
-                                  <label for="recipient-name" class="my-3 generalparagraph2">End Time
+                                  <label for="recipient-name" class="my-3 generalparagraph2 d-flex">End Time
+                                    <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                      <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                        data-placement="top" title="The time when access ends">
+                                      </i>
+                                    </button>
                                   </label>
 
                                   <select name="" id="" class="form-control">
@@ -2212,7 +2250,13 @@
                                 </div>
                               </div>
                               <div class="col-md-4 pl-0 pr-0">
-                                <label for="recipient-name" class="my-3 generalparagraph2">Duration(in Mins)</label>
+                                <label for="recipient-name" class="my-3 generalparagraph2 d-flex">Duration(in Mins)
+                                  <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                                    <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                      data-placement="top" title="This is how long the activity is expected to last">
+                                    </i>
+                                  </button>
+                                </label>
                                 <input type="text" class="form-control" id="datelive"
                                   placeholder="State duration of activity" />
                               </div>
@@ -2234,7 +2278,7 @@
                               </p>
                               <button class="btn p-0 m-0 d-flex mb-0 ml-3">
                                 <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
-                                  data-placement="top" title="On-demand">
+                                  data-placement="top" title="This will make access to the activity impossible till the access date">
                                 </i>
                               </button>
                             </div>
@@ -2243,9 +2287,15 @@
                       </div>
                       <div class="nameclassroom nameclassroominput row">
                         <div class="form-group row ml-1">
-                          <label for="descriptiontextarea" class="generalparagraph2 my-3">Physical Event Address</label>
+                          <label for="descriptiontextarea" class="generalparagraph2 my-3 d-flex">Physical Event Address
+                            <button class="btn p-0 m-0 d-flex mb-0 ml-3">
+                              <i class="fa fa-info-circle lightcolor" aria-hidden="true" data-toggle="tooltip"
+                                data-placement="top" title="Enter the address">
+                              </i>
+                            </button>
+                          </label>
                           <textarea name="" id="descriptiontextarea" cols="133" rows="5" class="form-control"
-                            placeholder=""></textarea>
+                            placeholder="Enter address"></textarea>
                         </div>
                       </div>
                     </div>
