@@ -769,6 +769,7 @@ button.agrowatchnowbtn:hover {
 
 .roundedaccordion {
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .coachprofileimage {
